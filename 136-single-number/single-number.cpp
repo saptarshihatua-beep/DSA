@@ -4,7 +4,7 @@ public:
         int ans = 0;
          for(int i = 0; i< nums.size(); i++){
             int val =nums[i];
-            ans = ans ^ val;
+            ans ^= val;
          }
          return  ans ;
 
