@@ -7,8 +7,10 @@ public:
         }
         int length = 0;
         while (i>=0 && s[i] != ' '){
-            i--;
             length ++;
+            i--;
+        
+        
         }
         return length;
 
